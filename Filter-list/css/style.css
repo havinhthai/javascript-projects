@@ -1,0 +1,58 @@
+#myInput {
+    font-size: 19px;
+    width: 100%;
+    background: url("../images/searchicon.png") no-repeat 10px 11px;
+    padding: 10px 20px 10px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li a {
+    color: #000;
+    background: #f6f6f6;
+    display: block;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-top: -1px;
+}
+
+ul li a.header {
+    background: #e2e2e2;
+    cursor: default;
+}
+
+ul li a:hover:not(.header)   {
+    background: #eee;
+}
+
+ul li div {
+    display: none;
+    padding: 10px;
+    font-size: 19px;
+    border: 1px solid #ddd;
+    margin-top: -1px;
+    animation: slide .4s;
+}
+
+ul li p {
+    margin-top: 0;
+}
+
+@keyframes slide {
+    from {
+        display: none;
+        height: 0;
+    }
+    to {
+        display: block;
+        height: auto;
+    }
+}

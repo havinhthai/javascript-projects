@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Slideshow-review</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.css" type="text/css">
+</head>
+<body>
+    <div class="slideContainer">
+        <div class="mySlides fade">
+            <img src="images/00.png" alt="slide01">
+            <div class="caption">Caption 01</div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="images/01.png" alt="slide02">
+            <div class="caption">Caption 02</div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="images/02.png" alt="slide03">
+            <div class="caption">Caption 03</div>
+        </div>
+
+        <a class="prev" onclick="prevSlide()"><i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i></a>
+        <a class="next" onclick="nextSlide()"><i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i></a>
+    </div>
+
+    <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <script src="js/event.js"></script>
+</body>
+</html>

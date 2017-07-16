@@ -1,0 +1,50 @@
+#myController {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+
+#myController button {
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #ddd;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: #1abc9c;
+    transition: .3s;
+}
+
+#myController button:hover {
+    background: #1abd1d;
+}
+
+#myController button:active {
+    background: #1abe9e;
+}
+
+#myContainer {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background: url("../images/map.jpg");
+    float: left;
+}
+
+#myAnimation {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: url("../images/fly.gif") no-repeat;
+}
+
+#myError {
+    font-family: Aria;
+    color: darkred;
+}
+
+.rotateBack {
+    transform: rotateY(180deg);
+}

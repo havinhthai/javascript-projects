@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Animations</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body onload="move()">
+    <h1>Tuts: Go to the destination to win!</h1>
+    <div id="mainContainer">
+        <div id="myContainer">
+            <div id="myAnimation" class=""></div>
+        </div>
+
+        <div id="myController">
+            <button id="goUp" style="position: absolute; top: 116px; left: 146px">Up</button>
+            <div style="position: absolute; top: 220px; left: 42px;">
+                <button id="goLeft">Left</button>
+                <button id="goDown">Down</button>
+                <button id="goRight">Right</button>
+            </div>
+        </div>
+    </div>
+    <div style="clear: both"></div>
+
+    <h2 id='myError'></h2>
+
+    <script src="js/event.js"></script>
+</body>
+</html>

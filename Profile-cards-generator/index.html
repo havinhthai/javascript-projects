@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="135 – 160 characters long">
+    <meta name="keywords" content="write your keywords in here">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Profile Cards Generator</title>
+
+    <!-- <link rel="icon" href=""> -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 form">
+                <form>
+                    <div class="form-group">
+                        <label for="idName">Name</label>
+                        <input type="text" id="idName" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="idEmail">Email</label>
+                        <input type="email" id="idEmail" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="idAge">Age</label>
+                        <input type="text" id="idAge" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary btn-block" id="btnAddUser">Add User</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-8 cards">
+                <div id="wrapperCards">
+                    <div class="col-md-3">
+                        <div class="profileCard">
+                            <div class="cardDelete">X</div>
+                            <h2>Vinh Thai</h2>
+                            <p><strong>Email:</strong> thaicd22@gmail.com</p>
+                            <p><strong>Age:</strong> 20</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
